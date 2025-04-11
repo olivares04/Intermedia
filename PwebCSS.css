@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #333; /* Fondo oscuro para inputs */
+    color: #fff; /* Texto blanco */
+    border: 1px solid #555; /* Borde gris */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#centerImage {
+    display: block;
+    margin: 20px auto;
+    width: 50%; /* Ajusta el ancho al 50% del tamaño original */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border: 2px solid #fff; /* Borde blanco para contraste */
+}
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: #111; /* Fondo ligeramente más claro para el pie de página */
+    color: #fff; /* Texto blanco */
+    font-size: 14px;
+}
+}
